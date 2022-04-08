@@ -1,0 +1,97 @@
+.two-heights {
+  position: relative;
+  margin: 200px;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 30;
+  background-color: #f4f4f4;
+  border-radius: 16px;
+  width: 770px;
+  height: 480px;
+  border-radius: 16px;
+}
+
+.overlay {
+  z-index: 9;
+  width: 625px;
+  height: 450px;
+  margin: 20px;
+  left: 590px;
+  top: 100px;
+}
+
+.box__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #404040;
+  text-align: left;
+  font-size: 36px;
+}
+
+.box__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.box__text {
+  font-family: "Roboto", sans-serif;
+  color: #404040;
+  text-align: left;
+  font-size: 20px;
+}
+
+.box__button {
+  font-weight: bold;
+  color: #f4f4f4;
+  background-color: #404040;
+  border: 1px solid #404040;
+  border-radius: 21px;
+  width: 210px;
+  height: 42px;
+
+  &:hover {
+    background-color: #3c3224;
+    border: 1px solid #3c3224;
+    color: #f4f4f4;
+  }
+}
+
+//ESTO NO SIRVE, SÓLO PARA MOSTRAR EN REACT
+
+.box-rest {
+  top: 650px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 40;
+  background-color: #f4f4f4;
+  border-radius: 16px;
+}
+
+.rest-overlay {
+  background-color: #f4f4f4;
+  border-radius: 16px;
+  left: 590px;
+  top: 800px;
+  width: 770px;
+  height: 480px;
+}
+
+.box__image-rest {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 16px;
+  z-index: 9;
+  width: 650px;
+  height: 450px;
+}

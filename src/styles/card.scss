@@ -1,0 +1,53 @@
+.card {
+  font-family: "Roboto", sans-serif;
+  background-color: #f1f1f1;
+  border: none;
+  transition: 0.3s box-shadow;
+  border-radius: 16px;
+  width: 560px;
+  height: 486px;
+
+  &:hover {
+    box-shadow: 6px 6px 6px #e9e8e8;
+  }
+
+  .__image--normal {
+    width: 10px;
+  }
+}
+
+.card__image--normal {
+  max-width: 400px;
+}
+
+.card__info {
+  height: 116px;
+}
+
+.card__info--title {
+  color: #404040;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card__info--link {
+  color: #7c7368;
+  font-size: 16px;
+
+  &:hover {
+    color: #7c7368;
+  }
+}
+
+//Not going to use these
+
+.card-title {
+  color: #404040;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.card-subtitle {
+  color: #404040;
+  font-size: 22px;
+}

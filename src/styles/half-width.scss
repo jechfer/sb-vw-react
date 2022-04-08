@@ -1,0 +1,41 @@
+.half-width {
+  top: 1300px;
+  position: relative;
+  padding-bottom: 100px;
+  background-color: #f8f8f8;
+}
+
+.slide__left {
+  border-radius: 16px 0px 0px 16px;
+  height: 400px;
+}
+
+.slide__right {
+  border-radius: 0px 16px 16px 0px;
+  height: 400px;
+}
+
+.slide__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.slide__info {
+  background-color: #ffffff;
+}
+
+.slide__info--title {
+  color: #404040;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: left;
+}
+
+.slide__info--text {
+  color: #404040;
+  font-size: 16px;
+  text-align: left;
+  width: 407px;
+}
